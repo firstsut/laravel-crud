@@ -10,5 +10,5 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/queue', 'SinglePageController@queue');
 Route::get('/{any}', 'SinglePageController@index')->where('any','.*');

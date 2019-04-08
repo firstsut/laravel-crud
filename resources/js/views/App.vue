@@ -1,8 +1,10 @@
 <template>
      <v-app>
         <v-toolbar dark  app>
-            <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+            <v-toolbar-side-icon @click.stop="drawer = !drawer" ><v-icon>fa-bars</v-icon></v-toolbar-side-icon>
             <v-toolbar-title class="white--text">Home</v-toolbar-title>
+
+            <v-spacer></v-spacer>
         </v-toolbar>
         <v-navigation-drawer
                 app
